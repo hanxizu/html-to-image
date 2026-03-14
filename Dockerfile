@@ -24,6 +24,6 @@ RUN cd /usr/src/app && npm install
 
 ENV PATH="/usr/src/app:${PATH}"
 
-EXPOSE 3033
+EXPOSE 8080
 
 ENTRYPOINT ["node", "/usr/src/app/app.js"]
