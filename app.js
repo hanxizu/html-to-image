@@ -6,7 +6,7 @@ import tmp from 'tmp';
 import cors from 'cors';
 
 const app = express();
-const port = 3033;
+const port = 8080;
 
 const supportedFormats = {
 	'png': { contentType: 'image/png', args: { type: 'png' } },
